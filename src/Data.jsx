@@ -34,6 +34,18 @@ const booksData = [
       imageUrl:"https://i0.wp.com/princetonbuffer.princeton.edu/wp-content/uploads/sites/185/2015/02/The-Hobbit.jpg?resize=672%2C372&ssl=1",
       title: "The Hobbit",
       description: "J.R.R. Tolkien's fantasy story about the journey of Bilbo Baggins, who is taken from his life of comfort."
+    },
+    {
+      id: 7,
+      imageUrl:"https://cdn5.vectorstock.com/i/1000x1000/41/69/story-book-with-cartoon-princesses-and-princes-vector-22534169.jpg",
+      title: "The Story of Fairytale",
+      description: "J.R.R. Tolkien's fantasy story about the journey of Bilbo Baggins, who is taken from his life of comfort."
+    },
+    {
+      id: 8,
+      imageUrl:"https://5.imimg.com/data5/SELLER/Default/2021/2/SA/IQ/HS/49559104/img-20210211-121925-500x500.jpg",
+      title: "The Jungle Book",
+      description: "J.R.R. Tolkien's fantasy story about the journey of Bilbo Baggins, who is taken from his life of comfort."
     }
   ];
   

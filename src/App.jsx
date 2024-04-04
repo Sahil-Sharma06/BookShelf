@@ -8,6 +8,8 @@ import BooksCard from './Components/BooksCard.jsx'
 import Footer from './Components/Footer.jsx'
 import CardParent from './Components/CardParent.jsx'
 import AboutUs from './Components/AboutUs.jsx'
+import BookList from './Components/BookList.jsx'
+import BookPage from './Components/BookPage.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,8 @@ function App() {
     {/* <HeroSection/>
     <CardParent/>
     <Footer/> */}
-    <AboutUs/>
+    {/* <AboutUs/> */}
+    <BookPage/>
     <Footer/>
   </div>
   )
