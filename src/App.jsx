@@ -1,30 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navigation from './Components/Navigation.jsx'
-import HeroSection from './Components/HeroSection.jsx'
-import BooksCard from './Components/BooksCard.jsx'
-import Footer from './Components/Footer.jsx'
-import CardParent from './Components/CardParent.jsx'
-import AboutUs from './Components/AboutUs.jsx'
-import BookList from './Components/BookList.jsx'
-import BookPage from './Components/BookPage.jsx'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navigation from './Components/Navigation.jsx';
+import HeroSection from './Components/HeroSection.jsx';
+import BooksList from './Components/BookList.jsx';
+import BookPage from './Components/BookPage.jsx';
+import AboutUs from './Components/AboutUs.jsx'; 
+import Footer from './Components/Footer.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-  <div className=''>
-    <Navigation/>
-    {/* <HeroSection/>
-    <CardParent/>
-    <Footer/> */}
-    {/* <AboutUs/> */}
-    <BookPage/>
-    <Footer/>
-  </div>
-  )
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<HeroSection />} />
+          <Route path="/books" element={<BooksList />} />
+          <Route path="/books/:id" element={<BookPage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/read" element={<BookPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
