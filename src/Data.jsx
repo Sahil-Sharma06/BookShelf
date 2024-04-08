@@ -1,4 +1,4 @@
-const booksData = [
+const booksData =[
   {
     "id": 1,
     "title": "To Kill a Mockingbird",
@@ -71,7 +71,7 @@ const booksData = [
     "description": "The Jungle Book is a collection of stories by Rudyard Kipling published in 1894. Originally serialized in magazines between 1893 and 1894, the stories are set in the jungles of India and feature a cast of anthropomorphic animals. The most famous of these stories is the tale of Mowgli, a young boy raised by wolves who must navigate the dangers of the jungle and confront his nemesis, the tiger Shere Khan. The Jungle Book explores themes of identity, belonging, and the balance between civilization and the wild. It has been adapted into numerous films, television series, and stage productions, captivating audiences of all ages with its timeless charm and adventure.",
     "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2021/2/SA/IQ/HS/49559104/img-20210211-121925-500x500.jpg"
   }
-]
+];
 
   
 
