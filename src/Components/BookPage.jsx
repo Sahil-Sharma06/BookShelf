@@ -10,7 +10,7 @@ function BookPage({ title, author, genre, datePublished, imageUrl, description }
         <div className="p-5 bookDetails">
           <h1 className='p-2 text-2xl border-stone-950'>Title : {title}</h1>
           <h1 className='p-2 text-2xl border-y-2 border-stone-950'>Author : {author}</h1>
-          <h1 className='p-2 text-2xl border-y-2 border-stone-950'>Genre : {genre}</h1>
+          <h1 className='p-2 text-2xl border-y-2 border-stone-950'>Genre : {genre[0]}</h1>
           <h1 className='p-2 text-2xl border-y-2 border-stone-950'>Date Published : {datePublished}</h1>
         </div>
       </div>

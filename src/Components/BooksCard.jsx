@@ -8,7 +8,7 @@ function BooksCard({ title, description, imageUrl, id }) {
         <img src={imageUrl} alt={title} className="h-[200px] w-full rounded-t-md object-cover" />
         <div className="p-4">
           <h1 className="text-lg font-semibold">{title}</h1>
-          <p className="mt-3 text-sm text-gray-600">{description}</p>
+          <p className="mt-3 text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eos officia, culpa reiciendis fuga velit veniam quae sunt laudantium ducimus!</p>
           <Link to={`/books/${id}`} className="mt-7 w-full rounded-sm bg-black px-2 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black/80">
             Read
           </Link>
