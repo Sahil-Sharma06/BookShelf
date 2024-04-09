@@ -6,7 +6,6 @@ import BooksList from './Components/BookList.jsx';
 import BookPage from './Components/BookPage.jsx';
 import AboutUs from './Components/AboutUs.jsx'; 
 import Footer from './Components/Footer.jsx';
-import booksData from './Data.jsx';
 
 function App() {
   return (
@@ -15,11 +14,9 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<HeroSection />} />
-          <Route path="/books" element={<BooksList />} />
-          {booksData.map((book) => (
-            <Route key={book.id} path={`/books/${book.id}`} element={<BookPage {...book} />} />
-          ))}
+          <Route path="/books" element={<BooksList searchQuery="programming" />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/book/:id" element={<BookPage />} />
         </Routes>
         <Footer />
       </div>
