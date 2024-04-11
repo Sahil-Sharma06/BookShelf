@@ -1,8 +1,3 @@
-# React + Vite
+📚 **BookShelf** 📖 is a cutting-edge React web application designed to revolutionize the way readers interact with books. With a vast library of literary works 🌟, users can explore timeless classics and modern masterpieces with ease. Advanced search features 📝 allow users to discover new favorites, while a visually stunning UI captivates the imagination. Whether you're a casual reader or a dedicated bookworm, BookShelf offers a seamless reading experience tailored to your preferences. Dive into a world of literature 🌍, organize your reads, and embark on a journey of literary exploration like never before! 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-04-10 224530](https://github.com/Sahil-Sharma06/BookShelf/assets/116885079/11f2250b-ae51-4552-b9ef-be3b849f47b0)
