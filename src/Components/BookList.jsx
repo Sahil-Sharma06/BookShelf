@@ -38,12 +38,15 @@ function BooksList() {
   }, [searchQuery]);
 
   return (
-    <div className="w-full h-full books-list">
+    <div className="mainContainer" >
+      <div className="w-full h-full books-list">
+      <h1 className='p-5 m-6 text-3xl font-bold'>Search for Books You want to read</h1>
       <input
         type="text"
         value={searchQuery}
         onChange={handleInputChange}
         placeholder="Search for books..."
+        className='p-5 mx-10 mt-3 mb-5'
       />
       <div className="flex flex-wrap cardContainer ">
         
@@ -61,6 +64,8 @@ function BooksList() {
       )}
       </div>
     </div>
+    </div>
+    
   );
 }
 
